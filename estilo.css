@@ -20,3 +20,14 @@
     border-radius: 60px;
     margin-top: 20px;
 }
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 100px);
+    align-items: start;
+}
+#item{
+    background-color: blue;
+    border: black 2px solid;
+    margin: 20px;
+}
