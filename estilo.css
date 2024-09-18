@@ -12,11 +12,11 @@
 	grid-template-rows: repeat(2, 100px);
     align-items: start;
 } */
-.geral{
+#geral{
     background-color: #bc8ac2;
       display: grid;
 }
-#imagem{
+.imagem{
     background-image: url(https://cdn.domestika.org/c_fit,dpr_auto,f_auto,q_80,t_base_params,w_820/v1619639365/content-items/007/802/124/1729%2520Curso%2520Flor%2520Samoilenco%2520_CRA_%2520120-original-original.jpg?1619639365);
     background-repeat: no-repeat;
     background-position: center; /* Centraliza horizontal e verticalmente */
@@ -26,13 +26,13 @@
     border-radius: 60px;
     margin-top: 20px;
 }
-.produtos{
+#produtos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 254px);
 }
 
-#item{
+.item{
     background-color: #d5b9e0;
     border: #000000 2px solid;
     margin: 20px;
