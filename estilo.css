@@ -50,11 +50,27 @@
 }
 #informacaoFixa{
     display: flex;
-    border: solid 3px orangered ;
-    width: 200px;
+    background-color: orange;
+    border-radius: 30px;
+    width: 187px;
+    height: 124px;
+    margin-right: 20px;
     position: fixed;
+    flex-wrap: wrap;
     right: 0;
-    top:50%;
+    top: 80%;
+    text-align: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.textoDoBlocoFlutuantePrincipal{
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.textoDoBlocoFlutuante{
+    color: #ffffff;
+    margin: auto;
 }
 
 .textoAbaixoDaImagem{
