@@ -28,7 +28,7 @@
     color:#476e30 ;
 }
 #geral{
-    background-color: #bc8ac2;
+    background-color: #ffffff;
       display: grid;
 }
 .imagemCarrossel{
@@ -67,7 +67,7 @@
     font-size: 22px;
     font-family: inherit;
     text-align: center;
-    padding: 35px;
+    padding-top: 60px;
 
 }
 
@@ -75,6 +75,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 42px;
 }
 
 #segundaListagemDeProdutos{
@@ -90,9 +91,22 @@
     margin: 15px;
 }
 
+.fotoDeProdutos{
+    height: 158px;
+    width: 284px;
+}
+.subTitulo{
+    color: #79be05;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+.texoExplicativoDoProduto{
+    text-align: center;
+}
 
-/*.rodaPe{*/
-/*    width: 100%;*/
-/*    height: 152px;*/
-/*    background-color: #000000;*/
-/*}*/
+.rodaPe{
+    width: 100%;
+    height: 130px;
+}
