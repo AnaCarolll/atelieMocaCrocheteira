@@ -53,7 +53,7 @@
   color: #ffffff;
 }
 
-#listagemDeProdutos{
+#listagemDeFotodDeProdutos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -62,6 +62,33 @@
     width: 506px;
     height: 370px;
 }
+
+.textoDeOpcoes{
+    font-size: 22px;
+    font-family: inherit;
+    text-align: center;
+    padding: 35px;
+
+}
+
+#listagemDeProdutos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#segundaListagemDeProdutos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fotosEspecificasDeProdutos{
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
 
 /*.rodaPe{*/
 /*    width: 100%;*/
