@@ -84,6 +84,7 @@
 }
 
 .fotosEspecificasDeProdutos{
+    align-content: flex-end;
     height: 200px;
     width: 300px;
     margin: 15px;
