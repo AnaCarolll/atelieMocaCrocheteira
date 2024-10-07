@@ -101,13 +101,14 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 42px;
+    padding: 24px;
 }
 
 #segundaListagemDeProdutos{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 32px;
 }
 
 .fotosEspecificasDeProdutos{
