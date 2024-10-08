@@ -30,7 +30,7 @@
 }
 #geral{
     background-color: #ffffff;
-      display: grid;
+    display: grid;
 }
 .imagemCarrossel{
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@
 
 .textoAbaixoDaImagem{
     font-size: 20px;
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #listagemDeFotodDeProdutos{
