@@ -1,7 +1,7 @@
 *{
     margin:0px;
 }
-.cabecario{
+.cabecalho{
     background-color: #ffffff;
     width: 90%;
     height: 75px;
@@ -10,7 +10,6 @@
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-end;
-
 }
 .icon {
     align-content: flex-end;
@@ -21,9 +20,9 @@
 #cabecarioInferior{
     background-color: #e9e8e6;
     width: 100%;
-    height: 38px;
+    height: 36px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .textoMenu{
     margin: 10px;
