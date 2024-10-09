@@ -11,7 +11,7 @@
     align-content: flex-end;
     justify-content: flex-end;
 }
-.icon {
+.icone {
     align-content: flex-end;
     flex-direction: row;
     justify-content: flex-end;
@@ -141,7 +141,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.logoFooter{
+.logoRaPe{
 
     width: 119px;
     height: 129px;
