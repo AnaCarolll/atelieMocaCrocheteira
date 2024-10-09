@@ -1,44 +1,149 @@
 *{
     margin:0px;
 }
-.cabecario{
-    background-color: rgb(0, 0, 0);
+.cabecalho{
+    background-color: #ffffff;
+    width: 90%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+.icone {
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5px
+}
+#cabecarioInferior{
+    background-color: #e9e8e6;
     width: 100%;
-    height: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+}
+.textoMenu{
+    margin: 10px;
+    color: #476e30 ;
+}
+#geral{
+    background-color: #ffffff;
     display: grid;
 }
-/* #itemCabecario{
-    grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 100px);
-    align-items: start;
-} */
-.geral{
-    background-color: rgb(188, 138, 194);
-      display: grid;
-}
-#imagem{
-    background-image: url(https://cdn.domestika.org/c_fit,dpr_auto,f_auto,q_80,t_base_params,w_820/v1619639365/content-items/007/802/124/1729%2520Curso%2520Flor%2520Samoilenco%2520_CRA_%2520120-original-original.jpg?1619639365);
+.imagemCarrossel{
     background-repeat: no-repeat;
-    background-position: center; /* Centraliza horizontal e verticalmente */
-    background-size: cover; /* Garante que a imagem cubra todo o elemento */
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 360px;
-    border-radius: 60px;
-    margin-top: 20px;
 }
-.produtos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 254px);
+#menuBaixoDoCarrossel{
+    background-color: #8bbd1f;
+    width: 100%;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+#informacaoFixa{
+    cursor: pointer;
+    display: flex;
+    background-color: orange;
+    border-radius: 30px;
+    width: 187px;
+    height: 124px;
+    margin-right: 20px;
+    position: fixed;
+    flex-wrap: wrap;
+    right: 0;
+    top: 80%;
+    text-align: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.textoDoBlocoFlutuantePrincipal{
+    color: #ffffff;
+    margin-top: 16px;
 }
 
-#item{
-    background-color: rgb(213, 185, 224);
-    border: black 2px solid;
-    margin: 20px;
+.textoDoBlocoFlutuante{
+    color: #ffffff;
+    margin: auto;
 }
+
+.textoAbaixoDaImagem{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#listagemDeFotoProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.produto{
+    width: 506px;
+    height: 370px;
+}
+
+.textoDeOpcoes{
+    font-size: 22px;
+    font-family: inherit;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+#listagemDeProdutos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+#segundaListagemDeProdutos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+
+.fotosEspecificasDeProdutos{
+    align-content: flex-end;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
+.fotoDeProdutos{
+    height: 158px;
+    width: 284px;
+}
+.subTitulo{
+    color: #79be05;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+.texoExplicativoDoProduto{
+    text-align: center;
+}
+
 .rodaPe{
     width: 100%;
-    height: 152px;
-    background-color: black;
+    height: 130px;
+    background-color: #9ac73c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logoRaPe{
+
+    width: 119px;
+    height: 129px;
+
 }
